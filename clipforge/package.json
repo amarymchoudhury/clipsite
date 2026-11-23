@@ -1,0 +1,48 @@
+{
+  "name": "clipforge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "worker": "tsx worker/index.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.47.10",
+    "archiver": "^7.0.1",
+    "bullmq": "^5.34.0",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
+    "ioredis": "^5.4.2",
+    "lucide-react": "^0.469.0",
+    "next": "^14.2.21",
+    "openai": "^4.77.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.6.0",
+    "tus-js-client": "^4.2.3",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/archiver": "^6.0.3",
+    "@types/node": "^20.17.10",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.21",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
